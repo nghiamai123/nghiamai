@@ -1,0 +1,72 @@
+.container_out{
+    height: 500px;
+    width: 400px;
+    background-color: rgb(219, 217, 217);
+    border-radius: 5px;
+}
+.title>p{
+    text-align: center;
+    font-size:30px;
+    opacity: 0.5;
+    padding: 10px;
+    margin: 0px;
+}
+.chose_customer{
+    text-align: center;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white ;
+    padding: 20px;
+    align-items: center;
+    justify-self: center;
+}
+.chose_customer form input, .input_gender form input{
+    width: 20px;
+    height: 30px;
+}
+.chose_customer form span, .input_gender form span{
+    position: relative;
+    top: -10px;
+}
+
+.input_email,.input_name_customer,.input_passwork{
+    margin-left: 25%;
+    margin-top: 20px;
+}
+.input_gender{
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    justify-self: center;
+}
+.container1{
+    display: grid;
+    grid-template-rows: 1fr;    
+    grid-template-columns: 1fr 1fr;
+}
+.container1 .term_condition p{
+    margin-left: 30px;
+    width: 160px;
+    height: 100px;
+    text-align: justify;
+}
+.container1 .term_condition p span{
+    text-decoration:underline;
+    color: blue;
+}
+.container1 .register{
+    margin: 20px 30px;
+}
+.register input:hover{
+    position: relative;
+    top: 10px;
+}
+.register input{
+    background-color: blue;
+}
+.all{
+    padding: 10px;
+    background-color: blue;
+} 
+input[type="text"]{
+    padding: 10px;
+}
