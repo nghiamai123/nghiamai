@@ -1,0 +1,16 @@
+.tree-image{
+    height: 20rem;
+    width: 50rem;
+    position: fixed;
+    border: 3px solid rgba(255, 0, 0, 0.799);
+    opacity: 0.5;
+    transition: 2s;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.tree-image:hover{
+    object-position: left;
+    border: 3px solid blue;
+    opacity: 1;
+}

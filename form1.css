@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}.contain{
+    width: 400px;
+    margin: 0 auto;
+    background-color: rgb(216, 212, 212);
+    display: grid;
+    gap: 10px;
+}
+.form-group>span{
+    padding-left: 30px;
+}
+.form-group span i{
+    align-items: center;
+}
+.form-group{
+    display: flex;
+    width: 100%;
+}
+.form-group span{
+    width: 40%;
+}
+.form-group div{
+    border-radius: 5px;
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+.center{
+    text-align: center;
+}
+.center input{
+    width: 100px;
+    height: 30px;
+    background-color: orange;
+}
+.center input:hover{
+    position: relative;
+    top: 10px;
+}
+
+
