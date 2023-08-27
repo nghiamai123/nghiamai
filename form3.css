@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 50%;
+    background-color: rgb(228, 237, 237);
+    margin: 20px auto;
+    display: flex;
+    border-left: 1px solid black ;
+    background-image: url(https://nhadepso.com/wp-content/uploads/2023/01/bo-suu-tap-99-hinh-anh-mua-he-dep-ruc-ro-tran-day-nang-luong_14.jpg);
+}
+.container_left{
+    width: 50%;
+    margin: 30px;
+    border-right: 2px solid black ;
+    padding-right: 5px;
+}
+.title{
+    margin: 30px 0px;
+}
+.contain_input,.containf{
+    display: grid;
+    gap: 20px;
+}
+.container_left .submit{
+    margin-top: 30px;
+    text-align: center;
+}
+input[type="submit"]{
+    padding: 5px;
+    background-color: rgb(8, 210, 41);
+}
+.container_right{
+    width: 50%;
+    margin: 30px 30px 30px 40px;
+    position: relative;
+}
+.container_right::before{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    content: "or";
+    color: azure;
+    border-right: 5px solid black;
+    top:calc(85%/2);
+    left: -70px;
+    background-color: rgb(76, 11, 241);
+    border-radius: 100%
+}
+.containf{
+    gap: 10px;
+}
+.logn_in1{
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+}
+.logn_in2{
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+}
+.logn_in3{
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
