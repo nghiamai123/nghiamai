@@ -70,3 +70,18 @@
 input[type="text"]{
     padding: 10px;
 }
+.chose_customer input{
+    appearance: none;
+    /*Để gửi dữ liệu khi chọn nút 
+    hoặc tương tác với phần tử, bạn cần sử dụng các 
+    phương thức khác như JavaScript hoặc các thư viện 
+    JavaScript như jQuery để xử lý sự kiện và gửi dữ liệu.*/
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 6px 10px;
+    background: #3f414d;
+    transition: all 0.1s;
+}
+.chose_customer input:checked {
+    background: #ce151e;
+  }
